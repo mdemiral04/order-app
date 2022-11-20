@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>order-app</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <div>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+    </div>
+     <div class="buttons">
+        <button id="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        <button id="menu-btn"><i class="fas fa-bars"></i></button>        
+        <button id="search-btn"><i class="fas fa-search"></i></button>       
+     </div>
+     <div class="search-form">
+        <input 
+        type="text" 
+        class="search-input" 
+        id="search-box"
+        placeholder="search here" />
+        <i class="fas fa-search"></i>
+     </div>
+     
+     <div class="cart-items-container">
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-1.png" alt="1">
+            <div class="content">
+                <h3>Funghi Pizza</h3>
+                <div class="price">$64.99</div>
+            </div>
+
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-2.png" alt="1">
+            <div class="content">
+                <h3>Cheese Burger</h3>
+                <div class="price">$44.99</div>
+            </div>
+
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-3.png" alt="1">
+            <div class="content">
+                <h3>Mıxed Pizza</h3>
+                <div class="price">$74.99</div>
+            </div>
+
+        </div>
+        <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/menu-4.png" alt="1">
+            <div class="content">
+                <h3>Triple Whooper</h3>
+                <div class="price">$54.99</div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">Checkout Now</a>
+     </div>
+     
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>EXPRESS HOME DELIVERY</h3>
+        <P>Lorem ipsum, 
+            dolor sit amet consectetur adipisicing elit. 
+            Minus, dolorem? Incidunt deserunt eius, aut 
+            cupiditate eum facere vero, dolore dolorum quibusdam atque 
+            sed soluta quidem hic autem ut nulla dolorem?</P>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h1 class="heading">OUR <span>MENU</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-1.png" alt="menu">
+                    <span class="menu-category">PİZZA</span>
+                    <h3>MINI PİZZAS</h3>
+                    <div class="price">$64.99<span> $69.99</span></div>
+
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-2.png" alt="menu">
+                    <span class="menu-category">BURGER</span>
+                    <h3>MİNİ BURGERS</h3>
+                    <div class="price">$54.99<span> $59.99</span></div>
+
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-3.png" alt="menu">
+                    <span class="menu-category">PİZZA</span>
+                    <h3>MİXED PİZZAS</h3>
+                    <div class="price">$74.99<span> $79.99</span></div>
+
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            </section>
+
+            <section class="products" id="products">
+                <h1 class="heading">OUR <span>PRODUCTS</span></h1>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="box-head">
+                            <span class="title">MİNİ BURGER</span>
+                            <a href="#" class="name">CHEESE BURGER</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/product-1.png" alt="product">
+                        </div>
+                        <div class="box-bottom">
+                            <div class="info">
+                                <b class="price">$44.99</b>
+                                <span class="amount">110gr / 300cal</span>
+                            </div>
+                            <div class="product-btn"><a href="#">
+                                <i class="fas fa-plus"></i>
+                            </a></div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-head">
+                            <span class="title">MİNİ BURGER</span>
+                            <a href="#" class="name">BLACK BURGER</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/product-2.png" alt="product">
+                        </div>
+                        <div class="box-bottom">
+                            <div class="info">
+                                <b class="price">$49.99</b>
+                                <span class="amount">120gr / 300cal</span>
+                            </div>
+                            <div class="product-btn"><a href="#">
+                                <i class="fas fa-plus"></i>
+                            </a></div>
+                        </div>
+                    </div>
+                    <div class="box dark-bg">
+                        <div class="box-head">
+                            <span class="title">MİNİ BURGER</span>
+                            <a href="#" class="name">DUBLEX BURGER</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/dark-product.jpg" alt="product">
+                        </div>
+                        <div class="box-bottom">
+                            <div class="info">
+                                <b class="price">$54.99</b>
+                                <span class="amount">150gr / 350cal</span>
+                            </div>
+                            <div class="product-btn"><a href="#">
+                                <i class="fas fa-plus"></i>
+                            </a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about">
+                <h1 class="heading">ABOUT <span>US</span></h1>
+                <div class="rov">
+                    <div class="image">
+                        <img src="images/about.jpg" alt="about">
+                    </div>
+                    <div class="content">
+                        <h3>What İs The Secret Of Our Burger?</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, omnis!
+                             Ullam, aliquid! Ullam architecto voluptatibus, 
+                            amet omnis ut tenetur suscipit incidunt ipsa optio quibusdam quia consectetur 
+                            porro nostrum quasi fugiat.</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, omnis!
+                                Ullam, aliquid! Ullam architecto voluptatibus, 
+                               amet omnis ut tenetur suscipit incidunt ipsa optio quibusdam quia consectetur 
+                               porro nostrum quasi fugiat.</p>
+                               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, omnis!
+                                Ullam, aliquid! Ullam architecto voluptatibus, 
+                               amet omnis ut tenetur suscipit incidunt ipsa optio quibusdam quia consectetur 
+                               porro nostrum quasi fugiat.</p>
+                               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, omnis!
+                                Ullam, aliquid! Ullam architecto voluptatibus, 
+                               amet omnis ut tenetur suscipit incidunt ipsa optio quibusdam quia consectetur 
+                               porro nostrum quasi fugiat.</p>
+                               <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="rewiev" id="rewiev">
+            <h1 class="heading">CUSTOMER'S <span> REVIEW</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat pariatur consequatur commodi placeat esse ullam in excepturi nesciunt, tempora voluptas eum, temporibus odio magnam numquam quasi! At, voluptate. Unde, error?</p>
+                        <img src="images/ben.jpeg" alt="avatar" class="user"/>
+                        <h3>Mustafa Demiral</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+                <div class="box">
+                    <img src="images/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora itaque expedita 
+                        ad dolore hic odio adipisci nesciunt, accusamus culpa delectus facilis explicabo omnis 
+                        eaque aspernatur asperiores! Animi, repellat nam!</p>
+                        <img src="images/askim.jpeg" alt="avatar" class="user"/>
+                        <h3>Çisem Karataş</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+                <div class="box">
+                    <img src="images/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, 
+                        animi fuga tempore illo, accusantium iste quis, eaque hic mollitia temporibus laboriosam
+                         amet unde quaerat nihil quasi ipsam numquam corporis obcaecati!
+                    </p>
+                        <img src="images/ibo.jpeg" alt="avatar" class="user"/>
+                        <h3>İbrahim Demiral</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1 class="heading">CONTACT <span>US</span></h1>
+            <div class="row">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.3694936949614!2d28.62502351517738!3d41.01717152682681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b55f15f408b6d3%3A0x6f11aa7b92d54534!2sBurger%20Yiyelim%20Beykent!5e0!3m2!1str!2str!4v1667043648356!5m2!1str!2str"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form>
+                    <h3>Share Your Views</h3>
+                    <div class="inputbox"><i class="fas fa-user"> </i>
+                        <input type="text" placeholder="name"/>
+
+                    </div>
+                    <div class="inputbox"><i class="fas fa-envelope"> </i>
+                        <input type="email" placeholder="email"/>
+
+                    </div>
+                    <div class="inputbox"><i class="fas fa-phone"> </i>
+                        <input type="number" placeholder="phone"/>
+
+                    </div>
+                    <input type="submit" class="btn" value="contact now">
+                </form>
+            </div>
+
+        </section>
+        <section class="blog" id="blogs">
+            <h1 class="heading">OUR <span>BLOG'S</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blog-1.jpg" alt="blog">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="tittle">How to make burgers?</a>
+                        <span>Chef Esin</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati delectus esse dicta 
+                            quo a porro voluptatem? Architecto tempore saepe odio! Tenetur, eligendi ab. Modi, et dicta. Vel, fugiat. Inventore.</p>
+                            <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blog-2.jpg" alt="blog">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="tittle">How to make burgers?</a>
+                        <span>Chef Mustafa</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati delectus esse dicta 
+                            quo a porro voluptatem? Architecto tempore saepe odio! Tenetur, eligendi ab. Modi, et dicta. Vel, fugiat. Inventore.</p>
+                            <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="images/blog-3.jpg" alt="blog">
+                    </div>
+                    <div class="content">
+                        <a href="#" class="tittle">How to make burgers?</a>
+                        <span>Chef Çisem</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati delectus esse dicta 
+                            quo a porro voluptatem? Architecto tempore saepe odio! Tenetur, eligendi ab. Modi, et dicta. Vel, fugiat. Inventore.</p>
+                            <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="search">
+                <input type="text" class="search-input" placeholder="search">
+                <button class="btn btn-primery">Search</button>
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+            <div class="links">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Products</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+                <a href="#">Blogs</a>
+            </div>
+            <div class="credit">
+                This website created by <span>Mustafa Taha Demiral</span> 
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+            </body>
+            </html>
